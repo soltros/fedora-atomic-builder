@@ -26,7 +26,6 @@ execute_command() {
             ;;
         2)
             sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia --apply-live
-            sudo rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda --apply-live
             sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau \
                 --append=modprobe.blacklist=nouveau \
                 --append=nvidia-drm.modeset=1
