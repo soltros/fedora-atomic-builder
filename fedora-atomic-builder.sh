@@ -86,7 +86,7 @@ EOF
             echo "Setting up Flatpak..."
             ;;
         11)
-            flatpak install org.gimp.GIMP org.videolan.VLC org.mozilla.firefox org.mozilla.Thunderbird org.gnome.gitg org.gnome.Extensions org.kde.kdenlive org.winehq.Wine org.fishshell.fish com.github.tchx84.Flatseal org.gnome.gedit io.github.flatpak_nix io.github.gnome_podman com.ultimaker.cura org.blender.Blender -y
+            flatpak install org.gimp.GIMP org.videolan.VLC org.mozilla.firefox org.mozilla.Thunderbird org.gnome.gitg org.gnome.Extensions org.kde.kdenlive org.winehq.Wine com.github.tchx84.Flatseal com.ultimaker.cura org.blender.Blender -y
             echo "Setting up Derrik's Flatpak packages..."
             ;;
         12)
